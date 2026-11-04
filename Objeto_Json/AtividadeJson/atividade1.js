@@ -1,10 +1,17 @@
-const entrada = require(readline-sync)
+const entrada = require("readline-sync")
 
-const jogos = {
-    nomme: [],
-    categoria: [],
-    ano_de_lancamento: [],
-    disponivel:[]
+const jogos = []
+
+function cadastrarJogo(){
+ 
 }
 
- entrada.question("Digite um novo nome para adicionar na lista: ")
+
+
+ entrada.question("Digite o nome do jogo: ", + jogos)
+ entrada.question("Digite a categoria: ", + jogos)
+ entrada.question("Digite ano de lancamento: ", + jogos)
+ entrada.question("disponivel (s/n): ", + jogos)
+
+
+ 
